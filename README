@@ -1,0 +1,72 @@
+# 🧩 App Inventory
+
+![Status](https://img.shields.io/badge/Status-ALPHA-yellow)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Shell](https://img.shields.io/badge/Written_in-Bash-4EAA25?logo=gnu-bash)
+![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey?logo=linux)
+![Formats](https://img.shields.io/badge/Outputs-TSV%20%7C%20CSV%20%7C%20JSON-orange)
+![Sources](https://img.shields.io/badge/Sources-Repo%20%7C%20AUR%20%7C%20Flatpak%20%7C%20Snap%20%7C%20Pip%20%7C%20Containers%20%7C%20LLMs-informational)
+
+> All-in-one Linux system inventory tool. Scans repos, AUR/foreign, Flatpaks, Snaps, AppImages, local binaries, Python packages, containers, LLMs, and more — then prints or exports everything in TSV/CSV/JSON.
+
+TODO
+  - remove orphans column
+  - fix ollama llm list when running in docker
+
+---
+
+## ✨ Features
+
+---
+
+## 🚀 Installation
+
+---
+
+## 🧪 Quick Start
+
+---
+
+## 📦 Output
+
+---
+
+## 🔍 Filtering & Modes
+
+---
+
+## 🧬 Diff Mode
+
+---
+
+## ⚠️ Safety Notes
+
+The tool **does not** execute binaries by default.
+
+There is an opt-in flag:
+
+```bash
+app-inventory --run-binaries
+```
+
+---
+
+## 📊 Summary & Orphans
+
+---
+
+## 🤝 Contributing
+
+PRs and issues welcome.
+
+- Improve detection for more sources
+- Optimize performance on huge systems
+- Better presets for common distros
+- Extra output formats / integrations
+
+---
+
+## 📜 License
+
+Released under the **MIT** license.
+See [`LICENSE`](./LICENSE) for details.
